@@ -1,0 +1,13 @@
+<div class="page-navigation">
+
+  <div class="clear">&nbsp;</div> 
+  <div class="left">    
+    <a href="{{ paginator.previous_page | page_url }}" class="{{ paginator.previous_page | nav_link_class }}">&larr; Newer</a>   
+  </div>
+
+  <div class="right">
+      <a href="{{ paginator.next_page | page_url }}" class="{{ paginator.next_page | nav_link_class }}">Older &rarr;</a>
+  </div>
+  <div class="clear">&nbsp;</div> 
+
+</div>

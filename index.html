@@ -1,0 +1,22 @@
+---
+layout: default
+title: Rails Notes
+---
+
+{% for post in paginator.posts %}
+
+  {% include date.html %}
+
+  <h2><a class="title" href="{{ post.url }}">{{ post.title }}</a></h2>
+
+  {% include tags.html %}
+
+{{ post.content | preview }}
+<br/>
+<a href="{{ post.url }}">Continue reading...</a>
+{% endfor %}
+
+
+{% include page-navigation.html %}
+
+
