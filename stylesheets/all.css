@@ -114,6 +114,7 @@ ul.posts li{
 .highlight .vg { color: #bb60d5 } /* Name.Variable.Global */
 .highlight .vi { color: #bb60d5 } /* Name.Variable.Instance */
 .highlight .il { color: #40a070 } /* Literal.Number.Integer.Long */
+.highlight code{ border: none; }
 
 .date{
     width: 60px;
@@ -191,4 +192,9 @@ ul.posts{
 h1{
     margin-top: 21px;
     margin-bottom: 21px;
+}
+
+code{
+    background-color: #EFEEED;
+    border: 1px solid #E0E0E0;
 }
