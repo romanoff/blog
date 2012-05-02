@@ -5,7 +5,7 @@ module Jekyll
     end
 
     def day(date)
-      date.strftime("%d")
+      date.strftime("%e")
     end
 
     def preview(input)      
